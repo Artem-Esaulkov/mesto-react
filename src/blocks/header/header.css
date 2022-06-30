@@ -1,0 +1,16 @@
+/* @import url(../header/__logo/header__logo.css); */
+
+.header {
+  width: min(100%, calc(28.57vw + 514.29px));
+  margin: 0 auto 40px;
+  padding-bottom: 41px;
+  border-bottom: 1px solid rgba(84, 84, 84, 0.7);
+}
+
+@media screen and (max-width: 720px) {
+  .header {
+    width: 100%;
+    margin: 0 0 42px;
+    padding-bottom: 30.6px;
+  }
+}

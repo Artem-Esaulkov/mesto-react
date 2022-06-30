@@ -1,0 +1,22 @@
+.profile__add {
+  margin: auto 0 auto auto;
+  padding: 0;
+  cursor: pointer;
+  border: 1px solid #fff;
+  width: 11.72vw;
+  text-align: center;
+  box-sizing: border-box;
+  transition: opacity 0.3s ease;
+}
+
+.profile__add:hover {
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 900px) {
+  .profile__add {
+    width: 88.13vw;
+    margin: 32px auto 0;
+    padding: 0;
+  }
+}

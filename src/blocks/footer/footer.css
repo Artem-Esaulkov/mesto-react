@@ -1,0 +1,19 @@
+/* @import url(./__text/footer__text.css); */
+
+.footer {
+  max-width: 318px;
+  margin: 0 0 0 calc((100vw - (282px * 3 + 17px * 2)) / 2);
+  padding: 0;
+}
+
+@media screen and (max-width: 950px) {
+  .footer {
+    margin: 0 0 0 calc((100vw - (282px * 2 + 17px)) / 2);
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .footer {
+    margin: 0 0 0 calc((100vw - 282px) / 2);
+  }
+}

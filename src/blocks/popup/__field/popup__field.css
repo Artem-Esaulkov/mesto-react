@@ -1,0 +1,16 @@
+@import url(./_name/popup__field_name.css);
+@import url(./_description/popup__field_description.css);
+@import url(./_title/popup__field_title.css);
+@import url(./_link/popup__field_link.css);
+
+.popup__field {
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 400;
+  padding: 0;
+  padding-bottom: 13px;
+  width: 100%;
+  box-sizing: border-box;
+}
