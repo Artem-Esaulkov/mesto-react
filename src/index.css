@@ -28,6 +28,7 @@ code {
 @import url(./blocks/element/__like-container/element__like-container.css);
 @import url(./blocks/element/__like-counter/element__like-counter.css);
 @import url(./blocks/element/__delete/element__delete.css);
+@import url(./blocks/element/__delete/_hidden/element__delete_hidden.css);
 @import url(./blocks/footer/footer.css);
 @import url(./blocks/footer/__text/footer__text.css);
 @import url(./blocks/popup/popup.css);

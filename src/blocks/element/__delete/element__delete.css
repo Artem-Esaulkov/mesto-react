@@ -7,7 +7,7 @@
     background-color: transparent;
     background-image: url(../../../images/element-delete.png);
     background-repeat: no-repeat;
-    /* background-size: 18px 19px; */
+    visibility: visible;
     transition: opacity 0.3 ease;
     border: 0;
 }
