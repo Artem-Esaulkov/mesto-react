@@ -38,7 +38,7 @@ function EditAvatarPopup(props) {
             name="src"
             id="src"
             ref={avatarRef}
-            value={`${avatar}`}
+            value={`${avatar}` || ""}
             onChange={handleAvatarChange}
             required
             minLength="2"
