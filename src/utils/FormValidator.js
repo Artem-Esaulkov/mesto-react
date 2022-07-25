@@ -85,7 +85,6 @@ const obj = {
 
 export const validateForm = (name) => {
   const formOpened = document.querySelector(`.popup_${name}`);
-  console.log(formOpened);
   const form = new FormValidator(obj, formOpened);
   form.enableValidation();
   form._setButtonDisabled();

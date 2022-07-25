@@ -1,0 +1,11 @@
+.login__signed-text {
+  color: #fff;
+  font-family: "Inter";
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 400;
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  margin-top: 15px;
+}

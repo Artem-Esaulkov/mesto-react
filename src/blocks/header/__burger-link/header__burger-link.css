@@ -1,0 +1,8 @@
+.header__burger-link {
+  display: none;
+  flex-direction: column;
+  gap: 6px;
+  margin: 0;
+  padding: 0;
+  width: 24px;
+}

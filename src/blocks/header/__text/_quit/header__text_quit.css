@@ -1,0 +1,18 @@
+.header__text_quit {
+  color: #a9a9a9;
+  transition: color 0.5s ease;
+  text-decoration: none;
+  margin: 18px 0;
+  padding: 0;
+}
+
+.header__text_quit:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 500px) {
+  .header__text_quit {
+    margin: 0;
+  }
+}

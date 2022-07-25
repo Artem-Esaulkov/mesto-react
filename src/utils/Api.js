@@ -84,9 +84,39 @@ class Api {
     })
     .then((res) => this._checkPromise(res));
   }
-}
 
-const api = new Api({
+register (email, password) {
+  return fetch(`${this._baseUrl}/signup`, {
+    method: 'POST',
+    headers: this._headers,
+    body: JSON.stringify({email, password})
+  })
+  .then((res) => this._checkPromise(res));
+  };
+
+  authorize (email, password) {
+    return fetch(`${this._baseUrl}/signin`, {
+      method: 'POST',
+      headers: this._headers,
+      body: JSON.stringify({email, password})
+    })
+    .then((res) => this._checkPromise(res));
+    };
+  
+    getContent = (token) => {
+      return fetch(`${this._baseUrl}/users/me`, {
+        method: 'GET',
+        headers: {
+          'Accept': 'application/json',
+          'Content-Type': 'application/json',
+          'Authorization': `Bearer ${token}`,
+        }
+      })
+      .then(res => this._checkPromise(res))
+    }
+} 
+
+export const api = new Api({
   baseUrl: "https://mesto.nomoreparties.co/v1/cohort-40",
   headers: {
     authorization: "ec3562dc-38d6-49a4-b958-d2cdacbbc00f",
@@ -94,4 +124,9 @@ const api = new Api({
   },
 });
 
-export default api;
+export const auth = new Api({
+  baseUrl: 'https://auth.nomoreparties.co',
+  headers: {
+    "Content-Type": "application/json",
+  },
+})

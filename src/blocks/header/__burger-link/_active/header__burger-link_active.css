@@ -1,0 +1,5 @@
+@media screen and (max-width: 360px) {
+  .header__burger-link_active {
+    display: flex;
+  }
+}

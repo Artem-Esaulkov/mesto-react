@@ -1,0 +1,9 @@
+.login__signed-text_link {
+  transition: opacity 0.5s ease;
+  text-decoration: none;
+}
+
+.login__signed-text_link:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
